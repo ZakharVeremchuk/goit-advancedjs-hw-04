@@ -179,4 +179,10 @@ main:has(.back-link) {
   100% { transform: rotate(-360deg);}
 }
 
+.load-more-button {
+  display: none;
+  margin: 20px auto;
+  
+}
+
 

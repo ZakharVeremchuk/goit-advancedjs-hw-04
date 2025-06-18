@@ -32,5 +32,13 @@ export function createImageCard(hit) {
 
 // Функція для рендеру масиву карток у галерею
 export function renderGallery(galleryElement, hits) {
-  galleryElement.innerHTML = hits.map(createImageCard).join('');
+  galleryElement.innerHTML = createCards(hits);
+}
+
+export function addPage(galleryElement, hits) {
+  galleryElement.innerHTML += createCards(hits)
+}
+
+function createCards(hits) {
+  return hits.map(createImageCard).join('');
 }
