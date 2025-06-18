@@ -5,6 +5,9 @@
   |============================
 */
 /* Common styles */
+@import url('izitoast/dist/css/iziToast.min.css');
+@import url('simplelightbox/dist/simple-lightbox.min.css');
+
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
