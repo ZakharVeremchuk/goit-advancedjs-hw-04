@@ -27,7 +27,7 @@ form.addEventListener('submit', (event) => {
     loadingMessage.style.display = 'block';
     gallery.innerHTML = '';
 
-    fetchImages(query)
+     fetchImages(query)
         .then((data) => {
             customLoader.style.display = 'none';
             loadingMessage.style.display = 'none';
